@@ -1,6 +1,8 @@
 PH-176858 - AC01 - Validate when landing on Wheels tray through Nav bar or CTA
 
 Given I'm a user navigating configurator
-When landing on wheels tray through Nav bar or CTA
-Then the system should send a Satellite.track(“virtualPage”) event for each time clicked
+When I navigate wheels tray
+And I click on + icon below the price  to open price inventory overlay
+Then the system should send a Satellite.track(“contentDisplayed”)
 And it should populate the for each time clicked
+
