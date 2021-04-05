@@ -13,3 +13,6 @@ When I navigate wheels tray
 And I click on + icon below the price  to open price inventory overlay
 Then the system should send a Satellite.track(“contentDisplayed”) event for each time clicked
 And it should populate the for each time clicked
+
+
+PH-176858 - AC03 - Validate when clicking on + icon below the price  to open price inventory overlay
