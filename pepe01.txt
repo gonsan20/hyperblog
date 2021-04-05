@@ -16,3 +16,4 @@ And it should populate the for each time clicked
 
 
 PH-176858 - AC03 - Validate when clicking on + icon below the price  to open price inventory overlay
+Given I'm a user navigating configurator
